@@ -1,33 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="fill_parent"
-              android:layout_height="fill_parent"
-            android:elevation="0dp"
-    android:weightSum="1">
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:weightSum="1"
+    android:clickable="true"
+    >
 
     <ListView
-        android:layout_width="wrap_content"
+        style="@style/serversListStyle"
+        android:layout_width="match_parent"
         android:layout_height="fill_parent"
-        android:id="@+id/listView"
+        android:textColor="@color/black"
+        android:id="@+id/listaServers"
         android:layout_weight="1.24"
-        android:layout_alignParentLeft="true"
+        android:layout_alignParentLeft="false"
         android:layout_marginLeft="0dp"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="0dp" />
+        android:layout_alignParentTop="false"
+        android:layout_marginTop="0dp"
+        android:theme="@style/ServerState"
+        android:touchscreenBlocksFocus="false"
+        android:layout_marginRight="0dp"
+        android:layout_alignParentRight="false"
+        android:layout_alignWithParentIfMissing="false"
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:listSelector="@drawable/list_selector" />
 
-    <Button
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:text="@string/add_button"
-        android:id="@+id/add_button"
-        android:layout_alignRight="@+id/listView"
-        android:layout_alignBottom="@+id/listView"
-        android:background="@drawable/circle_button"
-        android:layout_marginRight="15dp"
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:background="@drawable/circle_button_selector"
+        android:gravity="center_vertical|center_horizontal"
+        android:id="@+id/addButton"
+        android:clickable="true"
+        android:elevation="6dp"
+        android:layout_marginRight="16dp"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentEnd="false"
         android:layout_marginBottom="15dp"
-        android:textSize="30dp"
-        android:textColor="@color/highligh_text_color" />
+        android:layout_alignParentRight="false"
+        android:layout_alignBottom="@+id/listaServers"
+        android:layout_alignRight="@+id/listaServers">
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:id="@+id/imageView"
+            android:background="@drawable/ic_add_fab" />
+    </LinearLayout>
 
 </RelativeLayout>
 

@@ -3,10 +3,12 @@
     <color name="appColor">#0c88ff</color>
     <color name="background_color">#f1f1ff</color>
     <color name="transparent">#00000000</color>
-    <color name="text_color">#1e1e1e</color>
-    <color name="highligh_text_color">#e5e5e5</color>
-
+    <color name="text_color">#141414</color>
+    <color name="highlight_text_color">#e5e5e5</color>
+    <color name="FAB">#0c88ff</color>
+    <color name="FAB_pressed">#0a59aa</color>
     <color name="accent">#7199ae</color>
+    <color name="blueaccent">#82bcff</color>
     <color name="black">#000000</color>
     <color name="gray">#999999</color>
     <color name="blue">#0066cc</color>
