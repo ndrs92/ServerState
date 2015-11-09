@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="appColor">#0c88ff</color>
+    <color name="background_color">#f1f1ff</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_color">#1e1e1e</color>
+    <color name="highligh_text_color">#e5e5e5</color>
+
+    <color name="accent">#7199ae</color>
+    <color name="black">#000000</color>
+    <color name="gray">#999999</color>
+    <color name="blue">#0066cc</color>
+    <color name="gold">#e6b121</color>
+</resources>
