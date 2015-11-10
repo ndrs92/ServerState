@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Server State</string>
-    <string name="add_button">+</string>
-
+    <string name="introserver_button_create">Añadir</string>
+    <string name="introserver_name">Nombre: </string>
+    <string name="introserver_address">Dirección: </string>
+    <string name="introserver_newserver">Nuevo Servidor: </string>
+    <string name="main_menu_about">Acerca de...</string>
+    <string name="main_menu_settings">Ajustes</string>
+    <string name="details_name">Nombre</string>
+    <string name="details_server">Servidor</string>
+    <string name="details_services">Servicios</string>
 </resources>

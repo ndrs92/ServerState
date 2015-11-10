@@ -1,18 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="es.uvigo.esei.dm1516.p17"
-          android:versionCode="1"
-          android:versionName="1.0">
-    <uses-sdk android:minSdkVersion="21"/>
-    <application android:label="@string/app_name" android:icon="@drawable/ic_launcher">
-        <activity android:name="Main"
-                  android:label="@string/app_name"
-                  android:theme="@style/ServerState"
-        >
+    package="es.uvigo.esei.dm1516.p17"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="21" />
+    <application
+        android:label="@string/app_name"
+        android:icon="@drawable/ic_launcher">
+        <activity
+            android:name="Main"
+            android:label="@string/app_name"
+            android:theme="@style/ServerState">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".IntroServer"
+            android:label="Nuevo Servidor"
+            android:theme="@style/ServerState">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uvigo.esei.dm1516.p17.Main" />
+        </activity>
+        <activity
+            android:name=".Details"
+            android:label="Detalles"
+            android:theme="@style/ServerState">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="es.uvigo.esei.dm1516.p17.Main" />
         </activity>
     </application>
 </manifest>
