@@ -4,8 +4,7 @@
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:weightSum="1"
-    android:clickable="true"
-    >
+    android:clickable="true">
 
     <ListView
         style="@style/serversListStyle"
@@ -24,8 +23,7 @@
         android:layout_alignParentRight="false"
         android:layout_alignWithParentIfMissing="false"
         android:layout_alignParentEnd="false"
-        android:layout_alignParentStart="false"
-        android:listSelector="@drawable/list_selector" />
+        android:layout_alignParentStart="false"/>
 
     <LinearLayout
         android:orientation="horizontal"

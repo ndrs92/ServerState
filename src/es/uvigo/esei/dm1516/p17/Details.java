@@ -15,6 +15,8 @@ public class Details extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.details);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setElevation(0);
+
 
         Bundle extras = getIntent().getExtras();
         TextView name = (TextView) findViewById(R.id.detailName);

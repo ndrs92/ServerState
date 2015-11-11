@@ -20,6 +20,7 @@ public class IntroServer extends Activity {
         setContentView(R.layout.introserver);
 
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setElevation(0);
 
         Button addButton = (Button) findViewById(R.id.createServer);
         final EditText edServerName = (EditText) findViewById(R.id.introserver_name);

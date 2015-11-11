@@ -7,6 +7,8 @@
     <string name="introserver_newserver">Nuevo Servidor: </string>
     <string name="main_menu_about">Acerca de...</string>
     <string name="main_menu_settings">Ajustes</string>
+    <string name="main_menu_refresh">Refrescar</string>
+    <string name="main_menu_test_data">Cargar datos de prueba</string>
     <string name="details_name">Nombre</string>
     <string name="details_server">Servidor</string>
     <string name="details_services">Servicios</string>

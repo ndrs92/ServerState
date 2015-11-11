@@ -14,12 +14,18 @@ public class Server {
         this.address = address;
     }
 
-    public void saveToDatabase(SQLiteDatabase db) {
+    public Server saveToDatabase(SQLiteDatabase db) {
         db.execSQL("INSERT INTO server VALUES('" + this.name + "', '" + this.address + "')");
+        return this;
     }
 
-    public void deleteFromDatabase(SQLiteDatabase db){
+    public Server deleteFromDatabase(SQLiteDatabase db){
         db.execSQL("DELETE FROM server WHERE address = '" + this.address + "'");
+        return this;
+    }
+
+    public static void deleteAllFromDatabase(SQLiteDatabase db){
+        db.execSQL("DELETE FROM server");
     }
 
     public String getName() {

@@ -27,6 +27,7 @@ public class Main extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main);
+        getActionBar().setElevation(0);
         database = openOrCreateDatabase("serverstate", MODE_PRIVATE, null);
         database.execSQL("CREATE TABLE IF NOT EXISTS server (name TEXT, address TEXT)");
 
@@ -34,23 +35,31 @@ public class Main extends Activity {
         listaServers.setLongClickable(true);
 
         this.servers = new ArrayList<Server>();
-        this.serversAdapter = new ArrayAdapter<Server>(getApplicationContext(), android.R.layout.simple_list_item_2, this.servers) {
+        this.serversAdapter = new ArrayAdapter<Server>(getApplicationContext(), R.layout.list_layout , this.servers) {
             @Override
             public View getView(int position, View convertView, ViewGroup parent) {
-                TwoLineListItem row;
-                if (convertView == null) {
-                    LayoutInflater inflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-                    row = (TwoLineListItem) inflater.inflate(android.R.layout.simple_list_item_2, null);
-                } else {
-                    row = (TwoLineListItem) convertView;
-                }
-                Server data = servers.get(position);
-                row.getText1().setTextColor(getResources().getColor(R.color.text_color));
-                row.getText1().setText(data.getName());
-                row.getText2().setTextColor(getResources().getColor(R.color.text_color));
-                row.getText2().setText(data.getAddress());
+                LayoutInflater inflater = (LayoutInflater) this.getContext()
+                        .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                View rowView = inflater.inflate(R.layout.list_layout, parent, false);
+                ImageView icon = (ImageView) rowView.findViewById(R.id.list_icon);
+                TextView serverName = (TextView) rowView.findViewById(R.id.list_title);
+                TextView serverAddress = (TextView) rowView.findViewById(R.id.list_subtitle);
+                ImageView goIcon = (ImageView) rowView.findViewById(R.id.list_goicon);
 
-                return row;
+                serverName.setText(getItem(position).getName());
+                serverAddress.setText(getItem(position).getAddress());
+
+                if( ((int) (Math.random()*2+1)) == 1){
+                    icon.setImageDrawable(getDrawable(R.drawable.ic_up));
+
+                }else{
+                    icon.setImageDrawable(getDrawable(R.drawable.ic_down));
+
+                }
+
+
+
+                return rowView;
             }
         };
 
@@ -109,13 +118,21 @@ public class Main extends Activity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu( menu );
-        this.getMenuInflater().inflate( R.menu.main_menu, menu );
+        super.onCreateOptionsMenu(menu);
+        this.getMenuInflater().inflate(R.menu.main_menu, menu);
         return true;
     }
+
     @Override
     public boolean onOptionsItemSelected(MenuItem menuItem) {
-        switch( menuItem.getItemId() ) {
+        switch (menuItem.getItemId()) {
+            case R.id.mainMenuRefresh:
+                serversAdapter.notifyDataSetChanged();
+                break;
+            case R.id.mainMenuTestData:
+                createTestData();
+                break;
+
             case R.id.mainMenuSettings:
                 Toast.makeText(Main.this, "Aún no implementado", Toast.LENGTH_SHORT).show();
                 break;
@@ -129,5 +146,25 @@ public class Main extends Activity {
         return true;
     }
 
+    public void createTestData(){
+        Server.deleteAllFromDatabase(Main.database);
+        serversAdapter.clear();
+        serversAdapter.add(new Server("Google", "www.google.es").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Facebook", "www.facebook.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Twitter", "www.twitter.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Universidade de Vigo", "www.uvigo.es").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("ESEI", "www.esei.uvigo.es").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Faitic Uvigo", "www.faitic.uvigo.es").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Reddit", "www.reddit.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Infraesctructura ESEI", "www.infraesctructura.ei.uvigo.es").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Google +", "plus.google.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Spotify", "www.spotify.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Stack Overflow", "www.stackoverflow.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Android Web", "www.android.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Android Developers", "developer.android.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Java", "www.java.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Microsoft", "www.microsoft.com").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Apple", "www.apple.com").saveToDatabase(Main.database));
+    }
 
 }
