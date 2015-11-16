@@ -28,12 +28,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2c8a59b8-60b5-4588-bd36-f52a0138c037" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_content_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_content_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_content_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/list_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_content_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxxhdpi/ic_content_add.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/ServerState.apk" afterPath="$PROJECT_DIR$/out/production/ServerState/ServerState.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/ServerState.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/ServerState/ServerState.unaligned.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Details.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Details.class" />
@@ -45,31 +39,11 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Main$3.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Main$3.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Main$4.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Main$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Main.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$color.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$color.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$drawable.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$id.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$id.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$layout.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$layout.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$menu.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$menu.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$string.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$string.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$style.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R$style.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Server.class" afterPath="$PROJECT_DIR$/out/production/ServerState/es/uvigo/esei/dm1516/p17/Server.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/details.xml" afterPath="$PROJECT_DIR$/res/layout/details.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/introserver.xml" afterPath="$PROJECT_DIR$/res/layout/introserver.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/list_layout.xml" afterPath="$PROJECT_DIR$/res/layout/list_layout.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/menu/main_menu.xml" afterPath="$PROJECT_DIR$/res/menu/main_menu.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Details.java" afterPath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Details.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/IntroServer.java" afterPath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/IntroServer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Main.java" afterPath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Server.java" afterPath="$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Server.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ServerState.iml" afterPath="$PROJECT_DIR$/ServerState.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/es/uvigo/esei/dm1516/p17/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/es/uvigo/esei/dm1516/p17/BuildConfig.java" />
     </list>
     <ignored path="ServerState.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,10 +68,18 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5132275">
-              <caret line="158" column="80" selection-start-line="158" selection-start-column="80" selection-end-line="158" selection-end-column="80" />
+            <state vertical-scroll-proportion="0.6228448">
+              <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2823#3268#0" expanded="true" />
+                <element signature="e#3267#3268#0" expanded="true" />
+                <element signature="e#3320#4283#0" expanded="true" />
+                <element signature="e#3819#4131#0" expanded="true" />
+                <element signature="e#4130#4131#0" expanded="true" />
+                <element signature="e#4282#4283#0" expanded="true" />
+                <element signature="e#4402#4621#0" expanded="true" />
+                <element signature="e#4620#4621#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,8 +91,12 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
-                <element signature="e#718#719#0" expanded="true" />
-                <element signature="e#766#767#0" expanded="true" />
+                <element signature="e#797#798#0" expanded="false" />
+                <element signature="e#829#830#0" expanded="false" />
+                <element signature="e#863#864#0" expanded="false" />
+                <element signature="e#898#899#0" expanded="false" />
+                <element signature="e#930#931#0" expanded="false" />
+                <element signature="e#984#985#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -119,13 +105,9 @@
       <file leaf-file-name="main_menu.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/menu/main_menu.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
-              <folding>
-                <element signature="e#163#190#0" expanded="true" />
-                <element signature="e#345#373#0" expanded="true" />
-                <element signature="e#433#458#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,7 +115,7 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.3962264">
+            <state vertical-scroll-proportion="0.0">
               <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
               <folding />
             </state>
@@ -145,9 +127,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -157,7 +137,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -277,8 +259,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1046" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1066" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -305,9 +289,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -446,18 +427,22 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="S7M0215421007463" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_5_API_21" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="650" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="395" />
     <property name="SearchEverywhereHistoryKey" value="ParDatosLista&#9;FILE&#9;file:///home/ndrs/IdeaProjects/ServerState/src/es/uvigo/esei/dm1516/p17/ParDatosLista.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -760,35 +745,35 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1046" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="false" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17827004" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37341774" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17827004" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32845187" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29393306" sideWeight="0.49791667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17447917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26822916" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -817,6 +802,125 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2823#3268#0" expanded="true" />
+            <element signature="e#3267#3268#0" expanded="true" />
+            <element signature="e#3320#4283#0" expanded="true" />
+            <element signature="e#3819#4131#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4402#4621#0" expanded="true" />
+            <element signature="e#4620#4621#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <folding>
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#863#864#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/menu/main_menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Details.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/IntroServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/details.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/introserver.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="30" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/list_layout.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2823#3268#0" expanded="true" />
+            <element signature="e#3267#3268#0" expanded="true" />
+            <element signature="e#3320#4283#0" expanded="true" />
+            <element signature="e#3819#4131#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4402#4621#0" expanded="true" />
+            <element signature="e#4620#4621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -825,11 +929,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-          <folding>
-            <element signature="e#163#190#0" expanded="true" />
-            <element signature="e#345#373#0" expanded="true" />
-            <element signature="e#433#458#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,9 +945,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +953,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="55" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -961,20 +1061,13 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/android-sdk-linux/sources/android-21/java/lang/reflect/Method.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1005291">
-          <caret line="361" column="9" selection-start-line="361" selection-start-column="9" selection-end-line="361" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.6666665">
           <caret line="7" column="16" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
           <folding>
-            <element signature="e#290#308#0" expanded="true" />
-            <element signature="e#431#449#0" expanded="true" />
+            <element signature="e#290#308#0" expanded="false" />
+            <element signature="e#431#449#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1007,17 +1100,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png">
       <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
     </entry>
@@ -1058,23 +1140,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/IntroServer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.3962264">
+        <state vertical-scroll-proportion="0.0">
           <caret line="10" column="61" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
           <folding />
         </state>
@@ -1082,13 +1154,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/res/menu/main_menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="3" column="83" selection-start-line="3" selection-start-column="83" selection-end-line="3" selection-end-column="83" />
-          <folding>
-            <element signature="e#163#190#0" expanded="true" />
-            <element signature="e#345#373#0" expanded="true" />
-            <element signature="e#433#458#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1097,18 +1165,51 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#766#767#0" expanded="true" />
+            <element signature="e#797#798#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#863#864#0" expanded="false" />
+            <element signature="e#898#899#0" expanded="false" />
+            <element signature="e#930#931#0" expanded="false" />
+            <element signature="e#984#985#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/IntroServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="39" selection-start-line="22" selection-start-column="39" selection-end-line="22" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="8" selection-start-line="44" selection-start-column="8" selection-end-line="44" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/es/uvigo/esei/dm1516/p17/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5132275">
-          <caret line="158" column="80" selection-start-line="158" selection-start-column="80" selection-end-line="158" selection-end-column="80" />
+        <state vertical-scroll-proportion="0.6228448">
+          <caret line="154" column="34" selection-start-line="154" selection-start-column="34" selection-end-line="154" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#2823#3268#0" expanded="true" />
+            <element signature="e#3267#3268#0" expanded="true" />
+            <element signature="e#3320#4283#0" expanded="true" />
+            <element signature="e#3819#4131#0" expanded="true" />
+            <element signature="e#4130#4131#0" expanded="true" />
+            <element signature="e#4282#4283#0" expanded="true" />
+            <element signature="e#4402#4621#0" expanded="true" />
+            <element signature="e#4620#4621#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1170,7 +1271,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
