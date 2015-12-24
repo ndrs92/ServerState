@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="150dp"
         android:layout_marginLeft="0dp"
-        android:background="@color/background_dark"
+        android:id="@+id/detailColorLayout"
         android:padding="10dp">
 
         <TextView
@@ -60,8 +60,14 @@
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="@string/details_services"
-            android:id="@+id/textView4"
+            android:id="@+id/servicesText"
             android:layout_marginTop="10dp" />
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Acceder"
+                android:id="@+id/accessButton" android:textColor="@color/highlight_text_color"
+                android:layout_gravity="center_horizontal" android:width="200dp" android:visibility="invisible"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -1,6 +1,14 @@
 package es.uvigo.esei.dm1516.p17;
 
+import android.app.Application;
+import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
+import android.util.Log;
+
+import java.net.HttpURLConnection;
+import java.net.URL;
 
 /**
  * Created by ndrs on 10/11/15.

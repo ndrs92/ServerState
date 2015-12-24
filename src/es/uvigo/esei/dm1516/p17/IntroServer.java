@@ -38,10 +38,12 @@ public class IntroServer extends Activity {
                         Toast.makeText(IntroServer.this, "Introduce una dirección de más de 5 caracteres", Toast.LENGTH_SHORT).show();
                         return;
                     } else {
-                        toAdd.saveToDatabase(Main.database);
-                        Toast.makeText(IntroServer.this, "Creado:\n"+toAdd.toString(), Toast.LENGTH_SHORT).show();
-                        Intent i = new Intent(IntroServer.this, Main.class);
-                        startActivity(i);
+                        Intent returnData = new Intent();
+                        returnData.putExtra("name", toAdd.getName());
+                        returnData.putExtra("address", toAdd.getAddress());
+
+                        IntroServer.this.setResult(RESULT_OK, returnData);
+                        IntroServer.this.finish();
                     }
                 }
             }
@@ -52,8 +54,8 @@ public class IntroServer extends Activity {
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case android.R.id.home:
-
-                NavUtils.navigateUpFromSameTask(this);
+                this.setResult(RESULT_CANCELED);
+                finish();
                 return true;
             default:
                 return super.onOptionsItemSelected(item);

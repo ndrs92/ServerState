@@ -8,6 +8,7 @@ import android.content.Intent;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.*;
 import android.widget.*;
 
@@ -17,6 +18,8 @@ public class Main extends Activity {
     /**
      * Called when the activity is first created.
      */
+
+    public final int INTRO_SERVER = 0;
 
     public static SQLiteDatabase database;
 
@@ -41,23 +44,12 @@ public class Main extends Activity {
                 LayoutInflater inflater = (LayoutInflater) this.getContext()
                         .getSystemService(Context.LAYOUT_INFLATER_SERVICE);
                 View rowView = inflater.inflate(R.layout.list_layout, parent, false);
-                ImageView icon = (ImageView) rowView.findViewById(R.id.list_icon);
                 TextView serverName = (TextView) rowView.findViewById(R.id.list_title);
                 TextView serverAddress = (TextView) rowView.findViewById(R.id.list_subtitle);
                 ImageView goIcon = (ImageView) rowView.findViewById(R.id.list_goicon);
 
                 serverName.setText(getItem(position).getName());
                 serverAddress.setText(getItem(position).getAddress());
-
-                if( ((int) (Math.random()*2+1)) == 1){
-                    icon.setImageDrawable(getDrawable(R.drawable.ic_up));
-
-                }else{
-                    icon.setImageDrawable(getDrawable(R.drawable.ic_down));
-
-                }
-
-
 
                 return rowView;
             }
@@ -110,7 +102,7 @@ public class Main extends Activity {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(Main.this, IntroServer.class);
-                startActivity(i);
+                startActivityForResult(i, INTRO_SERVER);
             }
         });
 
@@ -132,7 +124,6 @@ public class Main extends Activity {
             case R.id.mainMenuTestData:
                 createTestData();
                 break;
-
             case R.id.mainMenuSettings:
                 Toast.makeText(Main.this, "Aún no implementado", Toast.LENGTH_SHORT).show();
                 break;
@@ -140,10 +131,24 @@ public class Main extends Activity {
                 Toast.makeText(Main.this, "Aún no implementado", Toast.LENGTH_SHORT).show();
                 break;
             default:
-
                 break;
         }
         return true;
+    }
+
+    @Override
+    public void onActivityResult(int requestCode, int resultCode, Intent data){
+        if ( requestCode == INTRO_SERVER && resultCode == RESULT_OK) {
+            Server toAdd = new Server(data.getExtras().getString("name"), data.getExtras().getString("address"));
+            toAdd.saveToDatabase(Main.database);
+            Toast.makeText(this, "Creado:\n"+toAdd.toString(), Toast.LENGTH_SHORT).show();
+            serversAdapter.add(toAdd);
+        }
+    }
+
+    @Override
+    public void onResume(){
+        super.onResume();
     }
 
     public void createTestData(){

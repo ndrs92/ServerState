@@ -16,13 +16,6 @@
         android:layout_height="54dp"
         android:weightSum="1">
 
-        <ImageView
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:id="@+id/list_icon"
-            android:layout_marginRight="15dp"
-            android:src="@drawable/ic_down" />
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="0dp"
