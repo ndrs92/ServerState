@@ -1,13 +1,10 @@
 <!-- res/values/styles.xml -->
 <resources>
     <!-- your theme inherits from the material theme -->
-    <style name="ServerState" parent="android:Theme.Material">
-        <!-- Main theme colors -->
-        <!--   your app branding color for the app bar -->
+    <style name="ServerState" parent="android:Theme.Material.Light.DarkActionBar">
         <item name="android:colorPrimary">@color/appColor</item>
-        <!--   darker variant for the status bar and contextual app bars -->
-        <item name="android:colorPrimaryDark">@color/appColor</item>
-        <!--   theme UI controls like checkboxes and text fields -->
+        <item name="android:colorPrimaryDark">@color/compat1</item>
+        <item name="android:dialogTheme">@style/dialogStyle</item>
         <item name="android:colorAccent">@color/accent</item>
         <item name="android:windowBackground">@color/background_color</item>
         <item name="android:colorBackground">@color/background_color</item>
@@ -16,5 +13,7 @@
     </style>
     <style name="serversListStyle" parent="@android:style/TextAppearance.Medium">
         <item name="android:textColor">@color/text_color</item>
+    </style>
+    <style name="dialogStyle" parent="android:Theme.Material.Light.Dialog">
     </style>
 </resources>

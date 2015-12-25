@@ -41,5 +41,8 @@
                     android:name="android.support.PARENT_ACTIVITY"
                     android:value="es.uvigo.esei.dm1516.p17.Details" />
         </activity>
+        <activity android:name=".About"
+                  android:label="Acerca de"
+                  android:theme="@style/ServerState" />
     </application>
 </manifest>

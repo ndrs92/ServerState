@@ -25,7 +25,7 @@ public class Details extends Activity {
         Bundle extras = getIntent().getExtras();
         TextView name = (TextView) findViewById(R.id.detailName);
         TextView address = (TextView) findViewById(R.id.detailServer);
-        Button accessButton = (Button) findViewById(R.id.accessButton);
+        LinearLayout accessButton = (LinearLayout) findViewById(R.id.detailsfab);
 
 
 
@@ -41,11 +41,12 @@ public class Details extends Activity {
             public void onClick(View v) {
                 Intent toWeb = new Intent(Details.this, WebPage.class);
                 toWeb.putExtra("address", target.getAddress());
+                toWeb.putExtra("name", target.getName());
                 startActivity(toWeb);
             }
         });
 
-        //Launch ConnChecker. It would change the layout color by itself
+        //Launch ConnChecker. It would change the FAB color by itself
         ConnChecker cc = new ConnChecker(this);
         cc.execute(target);
 

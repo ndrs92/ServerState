@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.support.v4.app.NavUtils;
 import android.view.MenuItem;
+import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
@@ -17,9 +18,15 @@ public class WebPage extends Activity {
         setContentView(R.layout.webpage);
         getActionBar().setDisplayHomeAsUpEnabled(true);
         getActionBar().setElevation(0);
+        setTitle(getIntent().getExtras().getString("name"));
 
         WebView wb = (WebView) findViewById(R.id.webView);
-        wb.setWebViewClient( new WebViewClient() );
+        wb.getSettings().setBuiltInZoomControls(true);
+        wb.getSettings().setDisplayZoomControls(false);
+        WebSettings webSettings = wb.getSettings();
+        webSettings.setJavaScriptEnabled(true);
+        webSettings.setSupportZoom(true);
+        wb.setWebViewClient( new WebViewClient());
         wb.loadUrl(checkURL(getIntent().getExtras().getString("address")));
 
     }

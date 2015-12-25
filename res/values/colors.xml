@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="appColor">#0c88ff</color>
-    <color name="background_color">#f1f1ff</color>
+    <color name="compat1">#ff0c77df</color>
+    <color name="background_color">#FFFFFF</color>
     <color name="transparent">#00000000</color>
     <color name="text_color">#141414</color>
-    <color name="highlight_text_color">#e5e5e5</color>
+    <color name="highlight_text_color">#FFFFFF</color>
     <color name="subtext_color">#525252</color>
     <color name="background_dark">#5e5c8b</color>
     <color name="FAB">#0c88ff</color>

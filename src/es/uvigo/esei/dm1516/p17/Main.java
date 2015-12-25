@@ -124,11 +124,9 @@ public class Main extends Activity {
             case R.id.mainMenuTestData:
                 createTestData();
                 break;
-            case R.id.mainMenuSettings:
-                Toast.makeText(Main.this, "Aún no implementado", Toast.LENGTH_SHORT).show();
-                break;
             case R.id.mainMenuAbout:
-                Toast.makeText(Main.this, "Aún no implementado", Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(Main.this, About.class);
+                startActivity(i);
                 break;
             default:
                 break;
@@ -161,7 +159,7 @@ public class Main extends Activity {
         serversAdapter.add(new Server("ESEI", "www.esei.uvigo.es").saveToDatabase(Main.database));
         serversAdapter.add(new Server("Faitic Uvigo", "www.faitic.uvigo.es").saveToDatabase(Main.database));
         serversAdapter.add(new Server("Reddit", "www.reddit.com").saveToDatabase(Main.database));
-        serversAdapter.add(new Server("Infraesctructura ESEI", "www.infraesctructura.ei.uvigo.es").saveToDatabase(Main.database));
+        serversAdapter.add(new Server("Infraestructura ESEI", "www.infraestructura.ei.uvigo.es").saveToDatabase(Main.database));
         serversAdapter.add(new Server("Google +", "plus.google.com").saveToDatabase(Main.database));
         serversAdapter.add(new Server("Spotify", "www.spotify.com").saveToDatabase(Main.database));
         serversAdapter.add(new Server("Stack Overflow", "www.stackoverflow.com").saveToDatabase(Main.database));

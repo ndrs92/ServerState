@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical"
     android:layout_width="match_parent" android:layout_height="match_parent"
     android:padding="0dp"
     android:id="@+id/detailsLinearLayoutRoot">
@@ -7,10 +7,10 @@
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:layout_marginLeft="0dp"
+        android:layout_height="wrap_content"
         android:id="@+id/detailColorLayout"
-        android:padding="10dp">
+        android:padding="10dp" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"
+        android:background="@color/appColor">
 
         <TextView
             android:layout_width="wrap_content"
@@ -45,29 +45,56 @@
             android:text="server"
             android:id="@+id/detailServer"
             android:layout_marginLeft="10dp"
-            android:textColor="@color/highlight_text_color" />
+            android:textColor="@color/highlight_text_color" android:layout_marginBottom="10dp"/>
     </LinearLayout>
 
+    <LinearLayout android:orientation="horizontal" android:layout_width="57dp" android:layout_height="57dp"
+                  android:background="@drawable/detailsfab_loading"
+                  android:gravity="center_vertical|center_horizontal" android:id="@+id/detailsfab"
+                  android:clickable="true" android:elevation="6dp"
+                  android:layout_alignParentBottom="false" android:layout_alignParentEnd="false"
+                  android:layout_alignParentRight="false"
+                  android:layout_below="@+id/detailColorLayout" android:layout_alignRight="@+id/detailColorLayout"
+                  android:layout_marginTop="-28.5dp" android:layout_marginRight="10dp">
+        <ImageView android:layout_width="32dp" android:layout_height="32dp" android:id="@+id/detailsfab_image"
+                   android:background="@drawable/spinner_16_inner_holo"/>
+    </LinearLayout>
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dp"
-        android:background="@color/background_color">
+        android:background="@color/background_color"
+        android:layout_below="@+id/detailColorLayout" android:layout_alignParentStart="true">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:text="@string/details_services"
+            android:text="Cargando..."
             android:id="@+id/servicesText"
-            android:layout_marginTop="10dp" />
-        <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Acceder"
-                android:id="@+id/accessButton" android:textColor="@color/highlight_text_color"
-                android:layout_gravity="center_horizontal" android:width="200dp" android:visibility="invisible"/>
+            android:layout_marginTop="10dp" android:textColor="@color/text_color"/>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray" android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"/>
+
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:layout_marginLeft="5dp">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="IP: "
+                    android:id="@+id/tvIp" android:textColor="@color/text_color"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="Inaccesible" android:id="@+id/tvIpContent"
+                      android:textColor="@color/subtext_color"/>
+        </LinearLayout>
     </LinearLayout>
 
-</LinearLayout>
+</RelativeLayout>

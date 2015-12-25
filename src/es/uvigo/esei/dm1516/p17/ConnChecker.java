@@ -7,11 +7,16 @@ import android.net.NetworkInfo;
 import android.os.AsyncTask;
 import android.util.Log;
 import android.view.View;
+import android.view.animation.Animation;
+import android.view.animation.AnimationUtils;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
+import org.w3c.dom.Text;
 
 import java.net.HttpURLConnection;
+import java.net.InetAddress;
 import java.net.URL;
 
 /**
@@ -19,6 +24,7 @@ import java.net.URL;
  */
 public class ConnChecker extends AsyncTask<Server, Double, Boolean>{
     private Details activity;
+    private String ipResult;
 
     public ConnChecker(Details activity){
         this.activity = activity;
@@ -26,7 +32,15 @@ public class ConnChecker extends AsyncTask<Server, Double, Boolean>{
 
     @Override
     public void onPreExecute(){
-        activity.findViewById(R.id.detailColorLayout).setBackgroundColor(activity.getResources().getColor(R.color.gray));
+        ipResult = "invalid";
+        LinearLayout button = (LinearLayout) activity.findViewById(R.id.detailsfab);
+        button.setBackground(activity.getResources().getDrawable(R.drawable.detailsfab_loading));
+        button.setClickable(false);
+        activity.findViewById(R.id.detailsfab_image).setBackground(activity.getResources().getDrawable(R.drawable.spinner_16_inner_holo));
+        TextView tvIp = (TextView) activity.findViewById(R.id.tvIp);
+        TextView tvIpContent = (TextView) activity.findViewById(R.id.tvIpContent);
+        tvIpContent.setVisibility(View.INVISIBLE);
+        tvIp.setText("...");
     }
 
     @Override
@@ -70,6 +84,19 @@ public class ConnChecker extends AsyncTask<Server, Double, Boolean>{
 
                     if (urlc.getResponseCode() == 200)  //Successful response.
                     {
+                        //Try to resolve ip address
+                        address = address.replace("http://", "");
+                        address = address.replace("https://", "");
+                        if(address.indexOf("/") != -1){
+
+                            address = address.substring(0,address.indexOf("/"));
+
+                        }
+
+                        //Sometimes it does not get any address, dunno why
+                        InetAddress getIP = InetAddress.getByName(address);
+                        ipResult = getIP.getHostAddress();
+
                         return true;
                     }
                     else
@@ -104,17 +131,31 @@ public class ConnChecker extends AsyncTask<Server, Double, Boolean>{
 
     @Override
     public void onPostExecute(Boolean connected){
-        LinearLayout l = (LinearLayout) activity.findViewById(R.id.detailColorLayout);
+        LinearLayout l = (LinearLayout) activity.findViewById(R.id.detailsfab);
+        ImageView i = (ImageView) activity.findViewById(R.id.detailsfab_image);
         TextView servicesText = (TextView) activity.findViewById(R.id.servicesText);
-        Button accessButton = (Button) activity.findViewById(R.id.accessButton);
+        TextView tvIp = (TextView) activity.findViewById(R.id.tvIp);
+        TextView tvIpContent = (TextView) activity.findViewById(R.id.tvIpContent);
 
         if(connected){
             servicesText.setText("Servidor disponible");
-            l.setBackgroundColor(activity.getResources().getColor(R.color.server_up));
-            accessButton.setVisibility(View.VISIBLE);
-        }else{
+            l.setBackground(activity.getResources().getDrawable(R.drawable.detailsfab_up_selector));
+            i.setBackground(activity.getResources().getDrawable(R.drawable.globe_icon));
+            l.setClickable(true);
+            tvIp.setText("IP: ");
+            tvIpContent.setVisibility(View.VISIBLE);
+
+            if(ipResult != "invalid"){
+                tvIpContent.setText(ipResult);
+            }else{
+                tvIpContent.setText("Inaccesible");
+            }
+        } else {
             servicesText.setText("Servidor desconectado");
-            l.setBackgroundColor(activity.getResources().getColor(R.color.server_down));
+            l.setBackground(activity.getResources().getDrawable(R.drawable.detailsfab_down_selector));
+            i.setBackground(activity.getResources().getDrawable(R.drawable.ic_down));
+            l.setClickable(false);
+            tvIp.setText("No hay datos para mostrar :(");
         }
     }
 }
